@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\Contacts\\API\\ContactsApp\\ContactsApp\\ContactsApp.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\Contacts\\API\\ContactsApp\\ContactsApp\\ContactsApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Contacts\\API\\ContactsApp\\ContactsApp\\ContactsApp.csproj",
+        "projectName": "ContactsApp",
+        "projectPath": "D:\\Projects\\Contacts\\API\\ContactsApp\\ContactsApp\\ContactsApp.csproj",
+        "packagesPath": "C:\\Users\\A.Matsinovich\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Contacts\\API\\ContactsApp\\ContactsApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\A.Matsinovich\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.coxautoinc.com/artifactory/api/nuget/cai-nuget": {},
+          "https://artifactory.coxautoinc.com/artifactory/api/nuget/cal-nuget": {},
+          "https://artifactory.coxautoinc.com/artifactory/api/nuget/ml-nuget-local": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
