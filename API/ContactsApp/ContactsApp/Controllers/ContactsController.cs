@@ -41,5 +41,20 @@ namespace ContactsApp.Controllers
             dbContext.SaveChanges();
             return Ok(domainModelContact);
         }
+
+        [HttpDelete]
+        [Route("{id:guid}")]
+        public IActionResult DeleteContact(Guid id)
+        {
+            var contact = dbContext.Contacts.Find(id);
+
+            if(contact is not null) 
+            {
+                dbContext.Contacts.Remove(contact);
+                dbContext.SaveChanges();
+            }
+
+            return Ok();
+        }
     }
 }
